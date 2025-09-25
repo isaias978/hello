@@ -6,7 +6,7 @@ int main()
 {
 
 
-	LPCWSTR lptext = L"hello";
+	LPCWSTR lptext = L"kill your pc";
 	while (true) {
 
 		HDC hdc;
@@ -20,3 +20,4 @@ int main()
 		TextOutW(hdc, rand() % sw, rand() % sh, lptext, wcslen(lptext));
 	}
 }
+
